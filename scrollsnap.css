@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow: scroll;
+  height: 100vh;
+}
+
+.area {
+  border-bottom: 3px dashed black;
+  color: white;
+  scroll-snap-align: end;
+}
+
+.area h1 {
+  line-height: 100vh;
+  text-align: center;
+}
+
+.container div:nth-child(1) {
+  background-color: aqua;
+}
+.container div:nth-child(2) {
+  background-color: #e0e0e0;
+}
+.container div:nth-child(3) {
+  background-color: #ebf6f7;
+}
+.container div:nth-child(4) {
+  background-color: #e4e4f0;
+}
+.container div:nth-child(5) {
+  background-color: #f0f0a8;
+}
